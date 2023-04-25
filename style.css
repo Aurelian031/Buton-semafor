@@ -8,6 +8,8 @@
     border-radius: 6px;
     border: 0px;
     padding: 5px 10px;
+    background-color: red; 
+    color: black;
     cursor: pointer;
 }
 
