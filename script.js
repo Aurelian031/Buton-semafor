@@ -1,5 +1,3 @@
-const interval = 10; // seconds
-
 function changeColor() {
     const myButton = document.getElementById('myButton');
     if (myButton.style.backgroundColor === 'red') {
@@ -12,4 +10,4 @@ function changeColor() {
 }
  setInterval(() => {
     changeColor();
-}, interval * 1000);
+}, 10000);
